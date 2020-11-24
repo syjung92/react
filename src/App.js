@@ -9,7 +9,7 @@ function BoardItem({row}) {
       <td>{row.brdwriter}</td>
       <td>{row.brddate}</td>
       <td><Button primary>Test</Button></td>
-      <td><Progress percent={66} indicating/></td>
+      <td><Progress percent={100} indicating/></td>
     </tr>
   )
 };
